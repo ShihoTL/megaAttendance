@@ -1,0 +1,78 @@
+@import url("config.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #462e5e;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: var(--secondary-color);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: var(--secondary-color);
+}
+
+.login:hover {
+  background-color: white;
+}
+
+.auth-buttons a {
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.register:hover {
+  background-color: white;
+}
+
+.register {
+  background-color: var(--secondary-color);
+}
+
