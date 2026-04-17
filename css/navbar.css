@@ -13,19 +13,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background-color: #462e5e;
+  background-color: var(--primary-color);
   color: white;
+  box-shadow: 2px 2px 2px var(--primary-color);
 }
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
+.logo img{
+ height: 50px;
+ width: auto;
 }
-
-.logo span {
-  color: var(--secondary-color);
-}
-
 .nav-links {
   display: flex;
   gap: 25px;
@@ -52,13 +47,12 @@
   cursor: pointer;
 }
 
-.login {
-  background-color: var(--secondary-color);
-}
 
-.login:hover {
+.login {
   background-color: white;
 }
+
+
 
 .auth-buttons a {
   padding: 8px 14px;
@@ -68,11 +62,9 @@
   color: black;
 }
 
-.register:hover {
-  background-color: white;
-}
+
 
 .register {
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
