@@ -1,13 +1,5 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIWES Attendance - Student List</title>
-    <link rel="stylesheet" href="/css/navbar.css" />
-    <link rel="stylesheet" href="/css/students_list.css" />
-    <link rel="stylesheet" href="/fontawesome/css/all.css">
-  </head>
 
 <head>
   <meta charset="UTF-8" />
@@ -15,25 +7,30 @@
   <title>SIWES Attendance - Student List</title>
   <link rel="stylesheet" href="/css/navbar.css" />
   <link rel="stylesheet" href="/css/students_list.css" />
+  <link rel="stylesheet" href="/fontawesome/css/all.css">
 </head>
 
 <body>
   <div class="container">
     <nav class="navbar">
-      <div class="logo">SIWES<span>Attendance</span></div>
+
+      <div class="logo">
+        <img src="/images/logo-dark.png" alt="" />
+      </div>
 
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="students_list.html">Students-List</a>
         <a href="profile.html">Profile</a>
-        <a href="edit_profile.html">Edit Profile</a>
+        <a href="instructions.html">Instructions</a>
         <a href="about.html">About</a>
       </div>
 
       <div class="auth-buttons">
-        <a href="login.html" class="login">Login</a>
-        <a href="register.html" class="register">Register</a>
+        <a href="login.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
+        <a href="register.html" class="register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
       </div>
+
     </nav>
 
     <section class="summary-cards">
@@ -116,8 +113,10 @@
         </tbody>
       </table>
     </section>
+
     <div class="footer-d">
       <div><img src="./images/logo-dark.png" class="img-f" /></div>
+
       <div class="footer-last">
         <div class="footer-d1">
           <a href="index.html">Home</a>
@@ -126,31 +125,23 @@
           <a href="edit_profile.html">Edit Profile</a>
           <a href="about.html">About</a>
         </div>
+
         <div class="footer-d2">
           <p>© <span>MegaAttendance</span>Copyright 2026. All Rights Reserved.</p>
-
-        <div class="auth-buttons">
-          <a href="login.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
-          <a href="register.html" class="register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
-        </div>
-      </nav>
-
-      <section class="summary-cards">
-        <div class="card">
-          <h3>Total Students</h3>
-          <p class="number">20</p>
-        </div>
-        <div class="card">
-          <h3>Present</h3>
-          <p class="number">12</p>
         </div>
       </div>
+
       <div class="footer-space">
         <p>Contact us</p>
         <p>Phone: 08124353021</p>
       </div>
 
+      <div class="auth-buttons">
+        <a href="login.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
+        <a href="register.html" class="register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
