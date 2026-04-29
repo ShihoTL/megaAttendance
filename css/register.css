@@ -1,4 +1,5 @@
 @import url("config.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -16,10 +17,9 @@
 }
 
 .inner-div {
-  width: 40vw;
+  width: 41vw;
   height: 100vh;
   background-color: var(--primary-color);
-  padding: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -34,6 +34,7 @@
   align-items: center;
   gap: 16px;
 }
+
 .back-btn {
   color: white;
   font-size: 24px;
@@ -44,26 +45,28 @@
   align-items: center;
   justify-content: center;
 }
+
 .back-btn:hover {
   transform: scale(1.1);
 }
-.header h1 {
+
+.header-h1 {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  margin: 0;
   flex: 1;
 }
+
 .header img {
   width: 150px;
   object-fit: contain;
 }
+
 .info {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 16px;
 }
 
 .info label {
@@ -72,16 +75,14 @@
   font-weight: 500;
 }
 
-.info input {
-  padding: 8px;
+.info-input {
   border: 1px solid grey;
   font-size: 14px;
   background-color: white;
   color: #333;
 }
 
-.info select {
-  padding: 12px;
+.info-select {
   border: 1px solid grey;
   font-size: 14px;
   background-color: white;
@@ -102,7 +103,6 @@
 }
 
 .submit-btn {
-  padding: 12px 24px;
   background-color: var(--secondary-color);
   color: white;
   border: none;
@@ -110,7 +110,6 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 16px;
   transition: background-color 0.3s ease;
 }
 
