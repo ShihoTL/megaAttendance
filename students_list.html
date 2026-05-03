@@ -5,13 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SIWES Attendance - Student List</title>
+  <link rel="stylesheet" href="/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="/css/navbar.css" />
   <link rel="stylesheet" href="/css/students_list.css" />
   <link rel="stylesheet" href="/fontawesome/css/all.css">
 </head>
 
 <body>
-  <div class="container">
+  <div class="container m-0 p-0">
     <nav class="navbar">
 
       <div class="logo">
@@ -33,23 +34,23 @@
 
     </nav>
 
-    <section class="summary-cards">
-      <div class="card">
+    <section class="summary-cards m-4">
+      <div class="card p-4">
         <h3>Total Students</h3>
         <p class="number">20</p>
       </div>
-      <div class="card">
+      <div class="card p-4">
         <h3>Present</h3>
         <p class="number">12</p>
       </div>
-      <div class="card">
+      <div class="card p-4">
         <h3>Absent</h3>
         <p class="number">8</p>
       </div>
     </section>
 
-    <section class="table-controls">
-      <select class="filter-select">
+    <section class="table-controls m-4">
+      <select class="filter-select py-2 px-3 me-3">
         <option value="all">All Students</option>
         <option value="present">Present</option>
         <option value="absent">Absent</option>
@@ -60,55 +61,56 @@
       <table class="student-table">
         <thead>
           <tr>
-            <th>Matric No.</th>
-            <th>Full Name</th>
-            <th>Department</th>
-            <th>Date</th>
-            <th>Status</th>
+            <th class="p-3">Matric No.</th>
+            <th class="p-3">Full Name</th>
+            <th class="p-3">
+              Department </th>
+            <th class="p-3"> Date</th>
+            <th class="p-3"> Status</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>cmp2307625</td>
-            <td>Wisdom Udhedhe</td>
-            <td>Software Engineering</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-present">Present</span></td>
+            <td class="p-3">cmp2307625</td>
+            <td class="p-3">Wisdom Udhedhe</td>
+            <td class="p-3"> Software Engineering</td>
+            <td class="p-3"> March 24, 2026</td>
+            <td class="p-3"><span class="badge py-2 px-3 badge-present">Present</span></td>
           </tr>
           <tr>
-            <td>cmp2307611</td>
-            <td>Uzoma chimere</td>
-            <td>Software Engineering</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-present">Present</span></td>
+            <td class="p-3">cmp2307611</td>
+            <td class="p-3"> Uzoma chimere</td>
+            <td class="p-3">Software Engineering</td>
+            <td class="p-3">March 24, 2026</td>
+            <td class="p-3"><span class="badge  py-2 px-3 badge-present">Present</span></td>
           </tr>
           <tr>
-            <td>cmp2307621</td>
-            <td>Anthony Ruth</td>
-            <td>Software Engineering</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-absent">Absent</span></td>
+            <td class="p-3">cmp2307621</td>
+            <td class="p-3">Anthony Ruth</td>
+            <td class="p-3">Software Engineering</td>
+            <td class="p-3">March 24, 2026</td>
+            <td class="p-3"><span class="badge  py-2 px-3 badge-absent">Absent</span></td>
           </tr>
           <tr>
-            <td>cmp2307619</td>
-            <td>Macaulay Akpughene</td>
-            <td>Software Engineering</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-present">Present</span></td>
+            <td class="p-3">cmp2307619</td>
+            <td class="p-3">Macaulay Akpughene</td>
+            <td class="p-3">Software Engineering</td>
+            <td class="p-3">March 24, 2026</td>
+            <td class="p-3"><span class="badge py-2 px-3 badge-present">Present</span></td>
           </tr>
           <tr>
-            <td>cmp2307629</td>
-            <td>Mgbeken Justice</td>
-            <td>Software Engineering</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-present">Present</span></td>
+            <td class="p-3">cmp2307629</td>
+            <td class="p-3">Mgbeken Justice</td>
+            <td class="p-3">Software Engineering</td>
+            <td class="p-3">March 24, 2026</td>
+            <td class="p-3"><span class="badge  py-2 px-3 badge-present">Present</span></td>
           </tr>
           <tr>
-            <td>cmp2307462</td>
-            <td>Uwaje Peter Onyekachukwu</td>
-            <td>Computer Science</td>
-            <td>March 24, 2026</td>
-            <td><span class="badge badge-present">Present</span></td>
+            <td class="p-3">cmp2307462</td>
+            <td class="p-3">Uwaje Peter Onyekachukwu</td>
+            <td class="p-3">Computer Science</td>
+            <td class="p-3">March 24, 2026</td>
+            <td class="p-3"><span class="badge  py-2 px-3 badge-present">Present</span></td>
           </tr>
         </tbody>
       </table>

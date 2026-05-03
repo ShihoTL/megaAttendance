@@ -1,106 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="/css/register.css" />
-    <title>Register Your Account</title>
-    <!-- SEO Meta Tags -->
-<meta name="description" content="Create an account on the SIWES Attendance Management System to start tracking and managing attendance efficiently.">
 
-<meta name="keywords" content="Register, SIWES Attendance, Student Registration, Attendance System">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="/css/register.css" />
 
-<meta name="author" content="SIWES Student Development Team">
+  <title>Register Your Account</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Create an account on the SIWES Attendance Management System to start tracking and managing attendance efficiently.">
 
-<meta name="robots" content="index, follow">
+  <meta name="keywords" content="Register, SIWES Attendance, Student Registration, Attendance System">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Register | SIWES Attendance System">
-<meta property="og:description" content="Sign up to start using the SIWES Attendance Management System.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:5500/register.html">
-<meta property="og:image" content="/images/preview.png">
-  </head>
-  <body>
-    <div class="main">
-      <div class="inner-div">
-        <div class="header">
-          <a href="/" class="back-btn">
-            <i class="fas fa-arrow-left"></i>
-          </a>
-          <h1>Register Your Account</h1>
-          <img src="/images/logo-dark.png" alt="" />
-        </div>
-        <form class="registration-form">
-          <div class="info">
-            <label for="fullname">Full Name</label>
-            <input
-              type="text"
-              id="fullname"
-              placeholder="Enter your full name"
-              required
-            />
-          </div>
+  <meta name="author" content="SIWES Student Development Team">
 
-          <div class="info">
-            <label for="matric">Matric</label>
-            <input
-              type="text"
-              id="matric"
-              placeholder="Enter your matric number"
-              required
-            />
-          </div>
+  <meta name="robots" content="index, follow">
 
-          <div class="info">
-            <label for="dept">Dept</label>
-            <select id="dept" required>
-              <option value="">Select a department</option>
-              <option value="Software Engineering">Software Engineering</option>
-              <option value="Computer Science">Computer Science</option>
-              <option value="ICT">ICT</option>
-              <option value="Cyber Security">Cyber Security</option>
-            </select>
-          </div>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Register | SIWES Attendance System">
+  <meta property="og:description" content="Sign up to start using the SIWES Attendance Management System.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:5500/register.html">
+  <meta property="og:image" content="/images/preview.png">
+</head>
 
-          <div class="info">
-            <label for="faculty">Faculty</label>
-            <select id="faculty" required>
-              <option value="Faculty of Computing">Faculty of Computing</option>
-            </select>
-          </div>
-
-          <div class="info">
-            <label for="place-of-it">Place of IT (Alihame/Town)</label>
-            <select id="place-of-it" required>
-              <option value="">Select a place</option>
-              <option value="Alihame">Alihame</option>
-              <option value="Town">Town</option>
-            </select>
-          </div>
-
-          <div class="info">
-            <label for="registration-date">Registration Date</label>
-            <input type="date" id="registration-date" required />
-          </div>
-
-          <div class="info">
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter your password"
-              required
-            />
-          </div>
-
-          <button type="submit" class="submit-btn">Register</button>
-        </form>
+<body>
+  <div class="main">
+    <div class="inner-div p-5">
+      <div class="header">
+        <a href="/" class="back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h2 class="header-h1 m-0">Register Your Account</h2>
+        <img src="/images/logo-dark.png" alt="" />
       </div>
+      <form class="registration-form">
+        <div class="info mb-4 ">
+          <label for="fullname">Full Name</label>
+          <input class="info-input p-3" type="text" id="fullname " placeholder="Enter your full name" required />
+        </div>
+
+        <div class="info mb-4">
+          <label for="matric">Matric</label>
+          <input class="info-input p-3" type="text" id="matric" placeholder="Enter your matric number" required />
+        </div>
+
+        <div class="info mb-4">
+          <label for="dept">Dept</label>
+          <select class="info-select p-3" id="dept" required>
+            <option value="">Select a department</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="ICT">ICT</option>
+            <option value="Cyber Security">Cyber Security</option>
+          </select>
+        </div>
+
+        <div class="info mb-4">
+          <label for="faculty">Faculty</label>
+          <select class="info-select p-3" id="faculty" required>
+            <option value="Faculty of Computing">Faculty of Computing</option>
+          </select>
+        </div>
+
+        <div class="info mb-4">
+          <label for="place-of-it">Place of IT (Alihame/Town)</label>
+          <select class="info-select p-3" id="place-of-it" required>
+            <option value="">Select a place</option>
+            <option value="Alihame">Alihame</option>
+            <option value="Town">Town</option>
+          </select>
+        </div>
+
+        <div class="info mb-4">
+          <label for="registration-date">Registration Date</label>
+          <input class="info-input p-3" type="date" id="registration-date" required />
+        </div>
+
+        <div class="info mb-4">
+          <label for="password">Password</label>
+          <input class="info-input p-3" type="password" id="password" placeholder="Enter your password" required />
+        </div>
+
+        <button type="submit" class="submit-btn py-3 px-4 mt-3">Register</button>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
