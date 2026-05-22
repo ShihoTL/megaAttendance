@@ -9,6 +9,11 @@ $datas = [
         "name" => "Udhedhe Wisdom",
         "department" => "Software Engineering",    
     ],
+    [
+        "matric_no" => "CMP2307629",
+        "name" => "Mgbeken Justice",
+        "department" => "Software Engineering",    
+    ],
 
     //  add your arrays here
 ];
