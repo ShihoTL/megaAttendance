@@ -32,6 +32,13 @@ $datas = [
         "username" => "okonta",
         "password" => "okonta123",
     ],
+
+     [
+        "matric_no" => "CMP2309133",
+        "name" => "Boi Mercy",
+        "department" => "Software Engineering",    
+    ],
+
     //  add your arrays here
 ];
 
