@@ -44,6 +44,10 @@ $datas = [
         "name" => "Okonta Miracle John",
         "department" => "Software Engineering",    
     ],
+    
+ [
+        "matric_no" => "CMP2307604",
+        "name" => "Otiti Chigoziem",
      [
         "matric_no" => "CMP2307462",
         "name" => "Uwaje Peter Onyekachukwu",
