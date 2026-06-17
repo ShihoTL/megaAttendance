@@ -1,0 +1,29 @@
+students
+    student_id (auto increment primary key (int))
+    first_name (string(100)) 
+    last_name (string(100)) 
+    middle_name (string(100)) NULLABLE NULL
+    department_id (foreign key, int)
+    mat_number (string)
+    gender (string(10))
+    phone (string(15))
+    email (string(50))
+    level (int(3))
+    dob (date)
+    relationship_status (string, nullable)
+    state_of_origin
+
+
+
+
+departments
+    department_id (auto increment, primary key)
+    name (string(50))
+    faculty_id(foreign key int)
+
+
+
+
+faculties
+    faculty_id(auto increment, primary key)
+    name(string(50))

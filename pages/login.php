@@ -1,3 +1,10 @@
+<?php
+$types = [
+  'Administrator',
+  'Student',
+  'Farmers'
+];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,11 +45,12 @@
       <p>Welcome back, <br>Sign into your account</p>
       <a href="/"><img src="/images/logo-dark.png" alt=""></a>
     </div>
-    <form action="profile.php" method="POST" class="mt-5">
+    <form action="php/login.php" method="POST" class="mt-5">
       <input type="text" name="username" placeholder="Enter Username" required class="p-2">
       <input type="password" name="password" placeholder="Password" required class="p-2">
 
       <button type="submit" class="submit-btn p-2 mt-3">Login</button>
+
     </form>
 
     <p> <i>Don't have an account? <a href="register.html">Sign Up</a></i> </p>
